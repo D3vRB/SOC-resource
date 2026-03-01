@@ -116,3 +116,29 @@ Logs from useradd / adduser revealed the creation of a new account after privile
 - Supports future lateral movement and reinfection
 
 ---
+
+### 5. Process Responsible for Task Creation
+![Image](/splunk/splunk05.png)
+
+**Explanation:**  
+The Process ID represents the exact running instance that executed the command responsible for registering the scheduled task. By correlating this identifier with system activity, the investigation was able to isolate the process directly involved in establishing persistence.
+
+**Impact:**
+- Trace the origin of the attack
+- Reconstruct the execution chain
+- Support incident containment and forensic analysis
+
+---
+
+### 6. Parent Process Behind Task Creation
+![Image](/splunk/splunk06.png)
+
+**Explanation:**  
+The parent process represents the initial execution vector that spawned the process used to create the scheduled task.
+
+**Impact:**
+- Defense evasion
+- Persistence establishment
+- Long-term system compromise
+
+---

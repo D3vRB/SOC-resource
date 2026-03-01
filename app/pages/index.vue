@@ -188,7 +188,14 @@ const posts = ref([
     description: 'Explore the essential SOC analyst skills...',
     image: '/splunk/splunkLogo.png',
     date: '2024-11-04',
-    to: '/courses/siem-triage-for-soc'
+    to: '/labs/siem-triage-for-soc'
+  },
+  {
+    title: 'SIEM Triage for SOC with Splunk',
+    description: 'Explore the essential SOC analyst skills...',
+    image: '/splunk/splunkLogo.png',
+    date: '2024-11-04',
+    to: '/siem-triage-for-soc'
   },
   //  {
   //   title: 'SIEM Triage for SOC with Elastic',

@@ -5,11 +5,10 @@
           <UButton
             color="primary"
             variant="outline"
-            to="https://github.com/nuxt/ui"
+            to="https://github.com/devrb2202/SOC-resource.git"
             target="_blank"
             icon="i-simple-icons-github"
             aria-label="GitHub"
-            label="Open Source"
             :trailing="true"
             size="xl"
           />

@@ -4,8 +4,8 @@ const route = useRoute()
 const path = '/' + (route.params.slug as string[]).join('/')
 
 const { data: page } = await useAsyncData(
-  () => `course-${path}`,
-  () => queryCollection('content').path(`/courses${path}`).first()
+  () => `${path}`,
+  () => queryCollection('content').path(`${path}`).first()
 )
 
 if (!page.value) {
