@@ -38,6 +38,7 @@ Hands-on SIEM investigation using Splunk to analyze Linux and Windows security l
 5. Privilege Escalation Analysis
 6. Persistence Hunting
 7. Finding Task Creation for Windows
+8. Identifying Brute-Force Activity and Web Shell Exploitation
 
 ---
 
@@ -49,6 +50,8 @@ Hands-on SIEM investigation using Splunk to analyze Linux and Windows security l
 - Persistence Account Created
 - Process Responsible for Task Creation
 - Parent Process Behind Task Creation
+- Local Group Enumeration Activity
+- Brute-Force Start Time & Web Shell Interaction
 
 ---
 
@@ -145,3 +148,34 @@ The parent process represents the initial execution vector that spawned the proc
 - Long-term system compromise
 
 ---
+
+### 7. Local Group Enumeration Activity
+![Image](/splunk/splunk07.png)
+
+**Explanation:**  
+Local group enumeration is a common discovery technique used by attackers to understand the privilege structure of a compromised system. By querying local groups, the attacker can identify high-value accounts, administrative privileges, and potential targets for further exploitation.
+This activity is typically performed using built-in Windows commands such as:
+net localgroup
+
+**Impact:**
+- Which users have administrative rights
+- Which accounts can access sensitive resources
+- Potential lateral movement opportunities
+
+---
+
+### 8. Brute-Force Start Time & Web Shell Interaction
+![Image](/splunk/splunk08.png)
+![Image](/splunk/splunk09.png)
+![Image](/splunk/splunk10.png)
+![Image](/splunk/splunk11.png)
+
+**Explanation:**  
+Logs revealed the exact start time of the automated brute-force attack using Hydra. Analysis also identified the specific user agent used by the attacker when interacting with the deployed web shell, indicating successful compromise and post-exploitation activity.
+
+**Impact:**
+- Establishes attack timeline
+- Confirms unauthorized system access
+- Enables sustained attacker control
+- Increases breach severity
+- Raises risk of reinfection
