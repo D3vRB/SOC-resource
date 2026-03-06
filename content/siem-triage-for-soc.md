@@ -169,6 +169,7 @@ net localgroup
 ![Image](/splunk/splunk09.png)
 ![Image](/splunk/splunk10.png)
 ![Image](/splunk/splunk11.png)
+![Image](/splunk/splunk12.png)
 
 **Explanation:**  
 Logs revealed the exact start time of the automated brute-force attack using Hydra. Analysis also identified the specific user agent used by the attacker when interacting with the deployed web shell, indicating successful compromise and post-exploitation activity.
