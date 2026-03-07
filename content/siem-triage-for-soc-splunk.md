@@ -1,5 +1,5 @@
 ---
-title: SIEM Triage for SOC
+title: SIEM Triage for SOC (Splunk)
 description: Hands-on SIEM investigation using Splunk to analyze Linux security logs, detect brute force attacks, privilege escalation, and persistence techniques through real-world SOC scenarios.
 date: 2026-02-26
 category: Blue Team / SOC
@@ -7,7 +7,7 @@ category: Blue Team / SOC
 
 [← Home](/)
 
-# 📧 SIEM Triage for SOC
+# 📧 SIEM Triage for SOC (Splunk)
 
 Hands-on SIEM investigation using Splunk to analyze Linux and Windows security logs, detect brute force attacks, privilege escalation, and persistence techniques through real-world SOC scenarios.
 

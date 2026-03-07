@@ -42,75 +42,75 @@ const myInfo = {
   }
 
 const posts = ref([
-  {
-    title: 'Email & Phishing Analysis',
-    description: 'Start your defensive security career...',
-    image: 'https://nuxt.com/assets/blog/nuxt-icon/cover.png',
-    date: '2024-11-25',
-    to: '/courses/email-and-phishing-analysis'
-  },
-  {
-    title: 'Network Traffic Analysis',
-    description: 'Explore the essential SOC analyst skills...',
-    image: 'https://nuxt.com/assets/blog/v3.14.png',
-    date: '2024-11-04',
-    to: '/courses/soc-team-internals'
-  },
-  {
-    title: 'Network Security Monitoring',
-    description: 'Explore the essential SOC analyst skills...',
-    image: 'https://nuxt.com/assets/blog/v3.14.png',
-    date: '2024-11-04',
-    to: '/courses/soc-team-internals'
-  },
-  {
-    title: 'Web Security Monitoring',
-    description: 'Explore the essential SOC analyst skills...',
-    image: 'https://nuxt.com/assets/blog/v3.14.png',
-    date: '2024-11-04',
-    to: '/courses/soc-team-internals'
-  },
-  {
-    title: 'Windows Security Monitoring',
-    description: 'Explore the essential SOC analyst skills...',
-    image: 'https://nuxt.com/assets/blog/v3.14.png',
-    date: '2024-11-04',
-    to: '/courses/windows-security-monitoring'
-  },
-   {
-    title: 'Linux Security Monitoring',
-    description: 'Explore the essential SOC analyst skills...',
-    image: 'https://nuxt.com/assets/blog/v3.14.png',
-    date: '2024-11-04',
-    to: '/courses/linux-security-monitoring'
-  },
-  {
-    title: 'Malware Analysis',
-    description: 'Explore the essential SOC analyst skills...',
-    image: 'https://nuxt.com/assets/blog/v3.14.png',
-    date: '2024-11-04',
-    to: '/courses/soc-team-internals'
-  },
-   {
-    title: 'Threat Analysis',
-    description: 'Explore the essential SOC analyst skills...',
-    image: 'https://nuxt.com/assets/blog/v3.14.png',
-    date: '2024-11-04',
-    to: '/courses/threat-analysis'
-  },
+  // {
+  //   title: 'Email & Phishing Analysis',
+  //   description: 'Start your defensive security career...',
+  //   image: 'https://nuxt.com/assets/blog/nuxt-icon/cover.png',
+  //   date: '2024-11-25',
+  //   to: '/courses/email-and-phishing-analysis'
+  // },
+  // {
+  //   title: 'Network Traffic Analysis',
+  //   description: 'Explore the essential SOC analyst skills...',
+  //   image: 'https://nuxt.com/assets/blog/v3.14.png',
+  //   date: '2024-11-04',
+  //   to: '/courses/soc-team-internals'
+  // },
+  // {
+  //   title: 'Network Security Monitoring',
+  //   description: 'Explore the essential SOC analyst skills...',
+  //   image: 'https://nuxt.com/assets/blog/v3.14.png',
+  //   date: '2024-11-04',
+  //   to: '/courses/soc-team-internals'
+  // },
+  // {
+  //   title: 'Web Security Monitoring',
+  //   description: 'Explore the essential SOC analyst skills...',
+  //   image: 'https://nuxt.com/assets/blog/v3.14.png',
+  //   date: '2024-11-04',
+  //   to: '/courses/soc-team-internals'
+  // },
+  // {
+  //   title: 'Windows Security Monitoring',
+  //   description: 'Explore the essential SOC analyst skills...',
+  //   image: 'https://nuxt.com/assets/blog/v3.14.png',
+  //   date: '2024-11-04',
+  //   to: '/courses/windows-security-monitoring'
+  // },
+  //  {
+  //   title: 'Linux Security Monitoring',
+  //   description: 'Explore the essential SOC analyst skills...',
+  //   image: 'https://nuxt.com/assets/blog/v3.14.png',
+  //   date: '2024-11-04',
+  //   to: '/courses/linux-security-monitoring'
+  // },
+  // {
+  //   title: 'Malware Analysis',
+  //   description: 'Explore the essential SOC analyst skills...',
+  //   image: 'https://nuxt.com/assets/blog/v3.14.png',
+  //   date: '2024-11-04',
+  //   to: '/courses/soc-team-internals'
+  // },
+  //  {
+  //   title: 'Threat Analysis',
+  //   description: 'Explore the essential SOC analyst skills...',
+  //   image: 'https://nuxt.com/assets/blog/v3.14.png',
+  //   date: '2024-11-04',
+  //   to: '/courses/threat-analysis'
+  // },
    {
     title: 'SIEM Triage for SOC with Splunk',
     description: 'Explore the essential SOC analyst skills...',
     image: '/splunk/splunkLogo.png',
     date: '2024-11-04',
-    to: '/labs/siem-triage-for-soc'
+    to: '/siem-triage-for-soc-splunk'
   },
   {
-    title: 'SIEM Triage for SOC with Splunk',
+    title: 'SIEM Triage for SOC with Elastic',
     description: 'Explore the essential SOC analyst skills...',
-    image: '/splunk/splunkLogo.png',
+    image: '/elastic/elastic-logo.png',
     date: '2024-11-04',
-    to: '/siem-triage-for-soc'
+    to: '/siem-triage-for-soc-elastic'
   },
 
 ])
