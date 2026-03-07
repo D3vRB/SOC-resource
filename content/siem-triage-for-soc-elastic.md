@@ -60,7 +60,7 @@ Hands-on SIEM investigation using Elastic to analyze suspicious activity on an I
 
 ## 📷 Evidence & Analysis
 
-### 1️. Failed Login Attempts on john.smith
+### 1️. Repeated POST Requests to proxyLogon.ecp
 ![Image](/elastic/elastic01.png)
 
 **Explanation:**  
@@ -75,7 +75,7 @@ The results showed three POST requests targeting /ecp/proxyLogon.ecp, which is a
 
 ---
 
-### 2. Duration of the Brute Force Attack
+### 2. Automated Exploit Tool Detected
 ![Image](/elastic/elastic02.png)
 
 **Explanation:**  
@@ -89,7 +89,7 @@ The user.agent field in the filtered Elastic logs revealed that the POST request
 
 ---
 
-### 3. Privilege Escalation Target Account
+### 3. Suspicious Web Shell Parameter
 ![Image](/elastic/elastic03.png)
 
 **Explanation:**  
@@ -103,7 +103,7 @@ Elastic logs were analyzed for the presence of the cmd= parameter in the url.pat
 
 ---
 
-### 4. Persistence Account Created
+### 4. Timeline-Based Investigation
 ![Image](/elastic/elastic04.png)
 
 **Explanation:**  
