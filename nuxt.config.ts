@@ -10,8 +10,18 @@ export default defineNuxtConfig({
   ui: {
     colorMode: true
   },
-    routeRules: {
-    '/**': { prerender: true }
+  //   routeRules: {
+  //   '/**': { prerender: true }
+  // },
+  //  nitro: {
+  //   preset: "vercel"
+  // }
+  nitro: {
+    preset: 'vercel'
+  },
+
+  routeRules: {
+    '/': { prerender: true }
   }
 
 })
