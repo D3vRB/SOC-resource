@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   ui: {
     colorMode: true
+  },
+    routeRules: {
+    '/**': { prerender: true }
   }
 
 })
